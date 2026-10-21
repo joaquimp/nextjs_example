@@ -38,7 +38,7 @@ export default function Tarefas() {
         <Botao onClick={adicionar}>Adicionar</Botao>
       </div>
       <section>
-        <p>Tsotal de Tarefas: {tarefas.length}</p>
+        <p>Total de Tarefas: {tarefas.length}</p>
         <p>Concluídas: {tarefas.filter(t => t.concluida).length}</p>
         <p>Pendentes: {tarefas.filter(t => !t.concluida).length}</p>
       </section>
